@@ -1,0 +1,19 @@
+{
+    "name": "@shared/utils",
+    "version": "0.0.1",
+    "private": true,
+    "main": "./src/index.ts",
+    "scripts": {
+        "commit:all": "npm run test && git add --all && git-cz"
+    },
+    "lint-staged": {
+        "src/**/*.{ts,vue}": [
+            "npm run prettier",
+            "npm run lint"
+        ]
+    },
+    "eslintIgnore": [
+        "*.js",
+        "*.d.ts"
+    ]
+}

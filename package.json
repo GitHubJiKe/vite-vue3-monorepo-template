@@ -1,0 +1,30 @@
+{
+  "name": "ft-monorepo-apps",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "dev": "./scripts/common.sh dev",
+    "build": "./scripts/common.sh build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.11.30"
+  },
+  "prettier": {
+    "tabWidth": 2
+  },
+  "dependencies": {
+    "@vicons/ionicons5": "^0.12.0",
+    "@vueuse/core": "^10.9.0",
+    "less": "^4.2.0",
+    "naive-ui": "^2.38.1",
+    "pinia": "^2.1.7",
+    "unocss": "^0.58.7",
+    "vfonts": "^0.0.3",
+    "vue-router": "4"
+  }
+}

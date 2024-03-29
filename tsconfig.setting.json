@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@shared/utils": ["../../shared/urils/*"],
+      "@shared/components": ["../../shared/components/*"]
+    }
+  }
+}
