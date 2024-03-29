@@ -1,4 +1,4 @@
-# pnpm + vite + vue3 + mtd3 + unocss + pinia + vue-router4
+# pnpm + vite + vue3 + naive-ui + unocss + pinia + vue-router4 + vueuse
 
 ![alt text](image.png)
 
