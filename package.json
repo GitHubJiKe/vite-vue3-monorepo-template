@@ -5,6 +5,7 @@
   "main": "index.js",
   "private": true,
   "scripts": {
+    "new": "./scripts/create.sh",
     "dev": "./scripts/common.sh dev",
     "build": "./scripts/common.sh build"
   },
