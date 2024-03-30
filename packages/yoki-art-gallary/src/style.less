@@ -1,10 +1,20 @@
 :root {
   --bg-color: #fff;
-  --text-color: #333;
+  --text-color: #000;
 }
 
 body {
   background-color: var(--bg-color);
   color: var(--text-color);
   transition: background-color 1s, color 1s;
+  font-family: "Noto Sans SC", "Dela Gothic One", sans-serif;
+}
+
+.dark {
+  --primary-text-color: #fff;
+  --primary-bg-color: #000;
+}
+.light {
+  --primary-text-color: #000;
+  --primary-bg-color: #fff;
 }
