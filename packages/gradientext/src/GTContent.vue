@@ -184,7 +184,7 @@ const download = () => {
         </div>
       </div>
       <svg
-        :style="`background-color: ${bgColor};border-radius: 12px;`"
+        :style="`background-color: ${bgColor};`"
         :width="width"
         :height="height"
         xmlns="http://www.w3.org/2000/svg"
